@@ -9,8 +9,8 @@ function SearchBar({placeholder}) {
     }
   return (
     <form className={styles.wrapper} onSubmit={onSubmit}>
-      <input className={styles.SearchBar} pplaceholder = {placeholder} required />
-      <button className={styles.searchButton} type="submit">
+      {/* <input className={styles.SearchBar} placeholder = {placeholder} required /> */}
+      <button className={styles.SearchButton} type="submit">
         <SearchIcon />
       </button>
     </form>

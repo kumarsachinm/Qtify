@@ -11,8 +11,8 @@ function Navbar() {
         <a href ="/">
       <Logo />
       </a>
-      <SearchBar placeholder="Search an album of your choice" />
-      <Button >Give Feedback</Button>
+      <SearchBar placeholder="Search a song of your choice" />
+      <Button className ={styles.Button} >Give Feedback</Button>
     </nav>
     </>
   )

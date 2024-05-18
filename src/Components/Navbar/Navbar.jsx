@@ -6,13 +6,15 @@ import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <nav className = {styles.navbar} >
+    <>
+    <nav className = {styles.Navbar} >
         <a href ="/">
       <Logo />
       </a>
       <SearchBar placeholder="Search an album of your choice" />
       <Button >Give Feedback</Button>
     </nav>
+    </>
   )
 }
 

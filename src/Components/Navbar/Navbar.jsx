@@ -6,15 +6,15 @@ import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <>
+     
     <nav className = {styles.Navbar} >
-        <a href ="/">
+      <a href ="/">
       <Logo />
       </a>
       <SearchBar placeholder="Search a song of your choice" />
-      <Button className ={styles.Button} >Give Feedback</Button>
+      <Button>Give Feedback</Button>
     </nav>
-    </>
+  
   )
 }
 
